@@ -1,8 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/services.dart';
-flutter_inappwebview: ^6.0.0
-shared_preferences: ^2.2.2
 // AUX BROWSER
 // PUBSPEC DEPENDENCIES NEEDED: flutter_inappwebview: ^6.0.0 shared_preferences: ^2.2.2
 // BUILD: flutter pub get && flutter build apk --release
@@ -254,6 +252,19 @@ class _AuxBrowserState extends State<AuxBrowser> {
     );
   }
 }
+
+// ---------------------------------------------------------------------------
+// Built-in backend — accounts and data API, provided by Danger World Builder.
+// Do not edit or redefine this class; use it from your screens.
+// ---------------------------------------------------------------------------
+
+
+
+// ---------------------------------------------------------------------------
+// Built-in device features — installed apps, home screen, on-device storage.
+// Do not edit or redefine this class; use it from your screens.
+// ---------------------------------------------------------------------------
+
 
 // ---------------------------------------------------------------------------
 // Built-in backend — accounts and data API, provided by Danger World Builder.
